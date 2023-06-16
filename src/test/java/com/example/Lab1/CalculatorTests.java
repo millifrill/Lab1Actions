@@ -64,4 +64,9 @@ public class CalculatorTests {
     void testGetCircumference() {
         assertEquals(31.42, (calculator.getCircumference(5)));
     }
+    
+    @Test
+    void failingTest(){
+    assertEquals(2,3);
+    }
 }
